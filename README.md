@@ -2,7 +2,7 @@
 
 ## Project: CAPS
 
-### Author: kale
+### Author: kale lesko
 
 ### Links and Resources
 
@@ -12,24 +12,28 @@
 
 ### Setup
 
-#### `.env` requirements (where applicable)
+#### `.env` requirements
 
-i.e.
+- `N/A`
 
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+<!-- - `PORT` - Port Number
+- `MONGODB_URI` - URL to the running mongo instance/db -->
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+- `npm init -y`
+- `npm install`
+- `npm start`
 
-#### How to use your library (where applicable)
+#### How to use your library
+
+- `node caps.js`
 
 #### Tests
 
 - Write unit tests for each event handler function (not event triggers themselves)
 - Use spies to help testing your logger methods (assert that console.log was called right)
 
-#### UML
+#### Whiteboard
 
-![UML Example](./reference/uml-1.png)
+![caps events](./assets/whiteboard.png)
