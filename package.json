@@ -1,0 +1,27 @@
+{
+  "name": "CAPS",
+  "version": "1.0.0",
+  "description": "## Project: CAPS",
+  "main": "caps.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node caps.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saynka/CAPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saynka/CAPS/issues"
+  },
+  "homepage": "https://github.com/Saynka/CAPS#readme",
+  "dependencies": {
+    "events": "^3.3.0",
+    "faker": "^5.5.1",
+    "jest": "^26.6.3"
+  }
+}
