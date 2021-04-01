@@ -1,7 +1,7 @@
-import Events from 'events';
+const Events = require('events');
 
 // Event Pool or Hub
 const events = new Events();
 
-export default events;
+module.exports = events;
 

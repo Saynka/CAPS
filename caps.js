@@ -1,6 +1,6 @@
-import './src/driver.js';
-import './src/vendor.js';
-import events from './src/events.js';
+require('./src/driver.js');
+require('./src/vendor.js');
+const events = require('./src/events.js');
 events.emit('start');
 
 
