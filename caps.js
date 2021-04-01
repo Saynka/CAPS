@@ -1,6 +1,8 @@
-require('./src/driver.js');
-require('./src/vendor.js');
-const events = require('./src/events.js');
+'use strict';
+
+require('./modules/driver.js');
+require('./modules/vendor.js');
+const events = require('./modules/events.js');
 events.emit('start');
 
 
