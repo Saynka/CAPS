@@ -1,4 +1,4 @@
-const driver = require('../src/driver.js');
+const driver = require('../modules/driver.js');
 
 
 let logSpy = jest.spyOn(console, 'log').mockImplementation();

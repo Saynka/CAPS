@@ -23,14 +23,16 @@ function newOrder() {
       storeName: faker.company.companyName(),
       orderId: faker.address.zipCode(),
       customerName: faker.name.findName(),
-      address: faker.address.streetAddress()
+      address: faker.address.streetAddress(),
+      phoneNumber: faker.phone.phoneNumber()
     }
 
     console.log(`NEW ORDER: ITEM NEEDS TO BE PICKED UP \n
     ${fake.storeName}\n 
     ${fake.orderId}\n
     ${fake.customerName}\n
-    ${fake.address}\n`)
+    ${fake.address}\n
+    ${fake.phoneNumber}\n`)
     events.emit('pickup', fake)
   }, 5000)
 }

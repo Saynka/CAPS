@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "## Project: CAPS",
   "main": "caps.js",
-  "type": "module",
   "scripts": {
     "test": "jest --coverage",
     "start": "node caps.js"
