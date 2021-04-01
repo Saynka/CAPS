@@ -1,4 +1,4 @@
-import events from './events.js';
+const events = require('./events.js');
 
 events.on('pickup', pickUp)
 events.on('in-transit', inTransit)
@@ -17,7 +17,7 @@ function inTransit(payload) {
   }, 3000)
 }
 
-export default {
+module.exports = {
   pickUp: pickUp,
   inTransit: inTransit
 }
